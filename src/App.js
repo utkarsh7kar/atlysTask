@@ -15,6 +15,7 @@ function App() {
           <Route path="/login" element={<LandingPage />} />
           <Route path="/main-feed" element={<MainFeed />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/" element={<RegisterPage />} />
         </Routes>
       </UserProvider>
     </Router>
